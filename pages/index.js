@@ -52,7 +52,7 @@ const Home = () => {
         conversion rate as well as support or chat requests.
       </SectionTitle>
       <Faq />
-      <Cta />
+      {/* <Cta /> */}
       <Footer />
       <PopupWidget />
     </>
