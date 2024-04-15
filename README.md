@@ -5,7 +5,7 @@
  <br>
 </p>
 
-# Nextly - Landing Page Template with Next.js & Tailwind CSS
+# Landing Page with Next.js & Tailwind CSS
 
 Nextly is a free landing page & marketing website template for  startups and indie projects. Its built with Next.js & TailwindCSS.
 And its completely open-source.
