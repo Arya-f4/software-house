@@ -1,17 +1,7 @@
 // Impor fungsi yang diperlukan dari SDK yang diperlukan
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs } from "firebase/firestore";
-
-// Konfigurasi Firebase aplikasi web Anda
-const firebaseConfig = {
-  apiKey: "AIzaSyDCRuYVCVmDZwL2el6SbjgdPdYMU3Tsn4A",
-  authDomain: "software-house-bio.firebaseapp.com",
-  projectId: "software-house-bio",
-  storageBucket: "software-house-bio.appspot.com",
-  messagingSenderId: "368710429918",
-  appId: "1:368710429918:web:1686be8ec321cdf8c0664f",
-  measurementId: "G-B4PX5WSHL1"
-};
+import { firebaseConfig } from '../../config/firebaseConfig'; // Mengimpor konfigurasi Firebase dari file firebaseConfig
 
 // Inisialisasi Firebase
 const app = initializeApp(firebaseConfig);
