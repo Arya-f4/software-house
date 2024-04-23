@@ -2,7 +2,7 @@ import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/hero.png";
 import motion from "framer-motion";
-
+import OfficesCanvas from "./canvas";
 const Hero = () => {
   return (
     <>
@@ -45,17 +45,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
-            <Image
-              src={heroImg}
-              width="616"
-              height="617"
-              className={"object-cover"}
-              alt="Hero Illustration"
-              loading="eager"
-              placeholder="blur"
-            />
-          </div>
+
+          <OfficesCanvas
+
+          />
+
         </div>
 
       </Container>
